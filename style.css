@@ -1,39 +1,97 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: 'Courier New', Courier, monospace;
 }
-.hero {
+.hero{
     width: 100%;
     height: 100vh;
-    background-image: ;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 nav {
     width: 100%;
-    position: absolute;
-    top:0%;
-    left:0%;
-    padding: 20px 8%;
-    display: flex;
-    align-items: cnter;
-    justify-content
-}
-.back-video {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    right: 0; /* Set right to 0 to make it span the full width */
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 100px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: bolder;
+    font-size: 46px;
+
+}
+.content h1:hover{
+-webkit-text-stroke:2px #fff;
+color: transparent;
+}
+nav ul li a{
+    text-decoration: solid;
+    color:aliceblue;
 }
 .content{
     text-align: center;
-}
-.content h1 {
-    font-size: 150px;
-    color: rgb(102, 156, 194);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: aliceblue;
     font-weight: 700;
+    font-style: italic;
+    transition: 2s;
 
+}
+/* .content a {
+    text-decoration: none;
+    display: inline-block;
+    color:deepskyblue;
+    font-size: 55px;
+    border: 2px solid whitesmoke;
+
+} */
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #0077b6; /* Darker blue color */
+    font-size: 24px; /* Larger font size */
+    padding: 20px 40px; /* Increased padding for a bigger button */
+    border: 2px solid #0077b6; /* Matching border color */
+    background-color: #f0f0f0; /* Light gray background color */
+    border-radius: 50px; /* Rounded borders */
+    transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+}
+
+.content a:hover {
+    background-color: #0077b6; /* Dark blue on hover */
+    color: #fff; /* White text on hover */
+}
+.backvideo{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .backvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .backvideo{
+        width: auto;
+        height: 100%;
+    }
 }
