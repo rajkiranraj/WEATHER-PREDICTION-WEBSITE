@@ -50,7 +50,7 @@ nav ul li a{
     color: aliceblue;
     font-weight: bolder;
     font-style: italic;
-    transition: 2s;
+    transition: 0.5s;
 
 }
 /* .content a {
