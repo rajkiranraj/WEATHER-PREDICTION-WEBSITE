@@ -33,7 +33,7 @@ nav ul li {
     display: inline-block;
     margin-left: 40px;
     font-weight: bolder;
-    font-size: 46px;
+    font-size: 20px;
 
 }
 .content h1:hover{
@@ -46,9 +46,9 @@ nav ul li a{
 }
 .content{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: aliceblue;
-    font-weight: 700;
+    font-weight: bolder;
     font-style: italic;
     transition: 2s;
 
