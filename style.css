@@ -36,7 +36,8 @@ nav {
 }
 
 nav .logo {
-    width: 50px;
+    width: 100px;
+    border-radius: 50px;
 }
 
 nav ul li {
@@ -198,7 +199,7 @@ nav ul li a {
 }
 
 .bgpapa {
-    background-image: url('robot-handshake-human-background-futuristic-digital-age.jpg');
+    background-image: url('hand.jpg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -215,7 +216,7 @@ nav ul li a {
     }
   }
 .container {
-    color: white;
+    color:black;
 }
 
 @media (max-width: 600px) {
@@ -256,7 +257,7 @@ nav ul li a {
     color: white;
   }
   .varun {
-    background-image: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%);;
+    background-image:linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
     border-radius: 10px;
     box-shadow: 0 0 20px #eee;
     display: block;
@@ -264,6 +265,9 @@ nav ul li a {
             color: #fff;
             text-decoration: none;
             /* text-decoration-color: black; */
+            padding: 15px 45px;
+            background-size: 100% 23%;
+            margin: 12px;
   }
 .varun li:hover{
     font-size: 30px;
@@ -297,3 +301,4 @@ nav ul li a {
 .size h2{
     font-size: 60px;
 }
+
