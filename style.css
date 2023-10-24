@@ -247,7 +247,7 @@ nav ul li a {
 /* Add more CSS styles for responsiveness as needed */
 
 @media (max-width: 480px) {
-    /* Additional mobile styles can be added for smaller screens */
+    /* Additional mobile styles for smaller screens */
 }
 .hover-effect{
     color: black;
@@ -261,7 +261,7 @@ nav ul li a {
     border-radius: 10px;
     box-shadow: 0 0 20px #eee;
     display: block;
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; /* change here */
             color: #fff;
             text-decoration: none;
             /* text-decoration-color: black; */
@@ -332,7 +332,7 @@ nav ul li a {
 }
 @media (max-width: 768px) {
     .footer {
-        padding: 40px 0 20px; /* Further reduced padding for smaller screens */
+        padding: 40px 0 20px; /* reduced padding for smaller screens */
     }
 
     .row {
