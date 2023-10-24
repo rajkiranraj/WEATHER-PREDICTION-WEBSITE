@@ -164,8 +164,14 @@ nav ul li a {
     height: auto;
     padding: 50px 0;
     text-align: center;
+    min-height: 500px;
+  background-attachment: fixed;
 }
-
+@media only screen and (max-width: 600px) {
+    .bgimg {
+      min-height: 300px;
+    }
+  }
 .none {
     color: #fff;
 }
@@ -200,8 +206,14 @@ nav ul li a {
     height: auto;
     padding: 50px 0;
     text-align: center;
+    min-height: 500px;
+  background-attachment: fixed;
 }
-
+@media only screen and (max-width: 600px) {
+    .bgpapa {
+      min-height: 300px;
+    }
+  }
 .container {
     color: white;
 }
@@ -260,12 +272,22 @@ nav ul li a {
     height: auto;
     padding: 50px 0;
     text-align: center;
+    min-height: 500px;
+  background-attachment: fixed;
 
 }
+@media only screen and (max-width: 600px) {
+    .pappu {
+      min-height: 300px;
+    }
+  }
 .baddu{
     font-weight: 540;
     color: #f0f0f0;
 }
 .nana h2{
     font-size: 32px;
+}
+.size h2{
+    font-size: 60px;
 }
