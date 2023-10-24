@@ -256,8 +256,14 @@ nav ul li a {
     color: white;
   }
   .varun {
-    background-color: black;
-    border-radius: 15px;
+    background-image: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%);;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+            /* text-decoration-color: black; */
   }
 .varun li:hover{
     font-size: 30px;
