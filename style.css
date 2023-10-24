@@ -301,4 +301,72 @@ nav ul li a {
 .size h2{
     font-size: 60px;
 }
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
 
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo{
+    width: 100px;
+    margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 0 20px; /* Further reduced padding for smaller screens */
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col {
+        flex-basis: 50%; /* Adjust flex basis for better mobile layout */
+        padding: 5px;
+    }
+
+    .logo {
+        width: 60px; /* Smaller logo for mobile */
+    }
+}
+col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.social .fa{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.col:nth-child(2),.col:nth-child(3) {
+    flex-basis: 15%;
+}
+.hike {
+    background-image: url('');
+}
