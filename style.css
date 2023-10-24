@@ -344,7 +344,7 @@ nav ul li a {
     }
 
     .logo {
-        width: 60px; /* Smaller logo for mobile */
+        width: 80px; /* Smaller logo for mobile */
     }
 }
 col h3{
@@ -368,5 +368,59 @@ col h3{
     flex-basis: 15%;
 }
 .hike {
-    background-image: url('');
+    background-image: url('pexels-mont-photographs-2948636.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    min-height: 500px;
+  background-attachment: fixed;
+}
+@media only screen and (max-width: 600px) {
+    .hike {
+      min-height: 300px;
+    }
+  }
+  /* .underline{
+    width: 100%;
+    height: 5px;
+    background: #767678;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left:0;
+    overflow: hidden;
+  }
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top:0;
+    left:10px;
+    animation: moving 2s linear infinite;
+} */
+@keyframes moving{
+    0%{
+        left:-20px
+    }
+    100%{
+        left: 100%;
+    }
+}
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+    .col{
+        flex-basis: 100%;
+    }
+    .col:nth-child(2),.col:nth-child(3){
+        flex-basis: 100%;
+
+    }
 }
