@@ -326,7 +326,7 @@ nav ul li a {
     padding: 10px;
 }
 .logo{
-    width: 100px;
+    width: 155px;
     margin-bottom: 30px;
     border-radius: 50%;
 }
@@ -345,7 +345,7 @@ nav ul li a {
     }
 
     .logo {
-        width: 80px; /* Smaller logo for mobile */
+        width: 100px; /* Smaller logo for mobile */
     }
 }
 col h3{
