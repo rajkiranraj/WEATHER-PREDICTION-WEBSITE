@@ -50,6 +50,7 @@ nav ul li {
 .content h1:hover {
     -webkit-text-stroke: 2px #fff;
     color: transparent;
+    transition: 1s;
 }
 
 nav ul li a {
@@ -172,6 +173,7 @@ nav ul li a {
 .nana h2:hover {
     color: transparent;
     -webkit-text-stroke: 2px #fff;
+    transition: 2s;
 }
 
 .name h2 {
@@ -185,6 +187,8 @@ nav ul li a {
 .papa h2:hover {
     color: transparent;
     -webkit-text-stroke: 2px #fff;
+    transition: 2s;
+
 }
 
 .bgpapa {
@@ -232,4 +236,36 @@ nav ul li a {
 @media (max-width: 480px) {
     /* Additional mobile styles can be added for smaller screens */
 }
+.hover-effect{
+    color: black;
+  transition: color 1s;
+}
+.hover-effect:hover {
+    color: white;
+  }
+  .varun {
+    background-color: black;
+    border-radius: 15px;
+  }
+.varun li:hover{
+    font-size: 30px;
+    transition: 2s;
+}
+.pappu{
+    background-image: url('pexels-pixabay-33153.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
 
+}
+.baddu{
+    font-weight: 540;
+    color: #f0f0f0;
+}
+.nana h2{
+    font-size: 32px;
+}
