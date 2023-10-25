@@ -501,3 +501,42 @@ col h3{
 
     }
 }
+/* footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Customize as needed */
+   */
+  
+  .social-media-icons a {
+    margin: 0 10px; /* Adjust spacing between icons */
+  }
+  
+  .social-media-icons img {
+    width: 90px; /* Adjust icon size */
+    height: auto;
+    align-items: center;
+  }
+  @media (max-width: 768px) {
+    /* footer {
+      text-align: center;
+    } */
+  
+    .social-media-icons a {
+      margin: 0 8px; /* Adjust spacing for smaller screens */
+    }
+    .social-media-icons {
+        display: flex;
+        flex-direction: column; /* Stack icons vertically */
+        align-items: center; /* Center-align icons horizontally */
+        display: inline-block; /* Center-align individual icons */
+      }
+    
+      .social-media-icons a {
+        margin: 10px 0; /* Add space between icons */
+      }
+    
+      .social-media-icons img {
+        width: 40px; /* Increase icon size for mobile */
+        height: 40px;
+      }
+  }
