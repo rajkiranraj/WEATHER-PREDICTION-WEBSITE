@@ -260,18 +260,19 @@ nav ul li a {
     background-image:linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
     border-radius: 10px;
     box-shadow: 0 0 20px #eee;
-    display: block;
+    display:flex ;
     background-position: right center; /* change here */
             color: #fff;
             text-decoration: none;
             /* text-decoration-color: black; */
-            padding: 15px 45px;
-            background-size: 100% 23%;
-            margin: 12px;
+            padding: 10px 30px;
+            /* background-size: 100% 23%; */
+     height: 70px;   
+     align-items: center    ;   
   }
 .varun li:hover{
-    font-size: 30px;
-    transition: 2s;
+    font-size: 25px;
+    transition: 0.5s;
 }
 .pappu{
     background-image: url('pexels-pixabay-33153.jpg');
