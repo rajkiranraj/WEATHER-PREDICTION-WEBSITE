@@ -544,3 +544,13 @@ col h3{
 /* .padkopo{
     width:nin cheppanga 
 } */
+.puku{
+    display: block;
+        margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .puku {
+        max-width: 100%;
+        margin: 0;
+    }
+}
