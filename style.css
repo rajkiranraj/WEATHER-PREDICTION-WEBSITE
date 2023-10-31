@@ -547,6 +547,10 @@ col h3{
 .puku{
     display: block;
         margin: 0 auto;
+        width: auto;
+        height: auto;
+        align-items:center;
+        
 }
 @media (max-width: 768px) {
     .puku {
