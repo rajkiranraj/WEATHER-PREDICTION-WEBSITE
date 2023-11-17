@@ -631,3 +631,7 @@ col h3{
         margin: 0;
     }
 }
+.overflow{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
